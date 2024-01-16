@@ -35,4 +35,4 @@ with gr.Blocks(theme=gr.themes.Base()) as demo:
     )
 
 if __name__ == "__main__":
-    demo.launch()  # launch app
+    demo.launch(share=True)  # launch app
