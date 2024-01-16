@@ -1,0 +1,8 @@
+torch
+langchain
+pypdf 
+transformers
+sentence-transformers 
+faiss-cpu 
+faiss-gpu
+gradio
