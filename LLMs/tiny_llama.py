@@ -45,9 +45,7 @@ class TinyLLama:
             trust_remote_code=True,
             quantization_config=bnb_config if device != "cpu" else None,
         )
-
-        model.to(device)
-
+        
         # enable evaluation mode to allow model inference
         model.eval()
         print(f"Model loaded on {device}")

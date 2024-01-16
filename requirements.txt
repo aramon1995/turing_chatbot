@@ -6,3 +6,5 @@ sentence-transformers
 faiss-cpu 
 faiss-gpu
 gradio
+bitsandbytes
+accelerate
